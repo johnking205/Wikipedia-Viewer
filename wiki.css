@@ -1,0 +1,28 @@
+html {
+  /* overflow: hidden; */
+  background-color: cadetblue;
+}
+#results img{
+  display: block;
+  padding: 10px;
+  height: 45px;
+}
+#query {
+  border: 2px solid;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 5px;
+}
+#search-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.entry {
+  background-color: #eeeeee;
+  width: 75%;
+  margin: 10px auto;
+  padding: 5px;
+  border: 2px solid #a2a9b1;
+  border-radius: 20px;
+}

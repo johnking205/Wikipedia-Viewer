@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="John Sterrett" />
+        <meta name="description" content="John Sterrett Front-End Engineer HTML CSS JS" />
+
+        <title>Wikipedia Viewer</title>
+        <link rel="stylesheet" href="wiki.css" />
+        <script type="text/javascript" src="external.js"></script>
+        <link rel="icon" href="placeholder.png" /> <!-- http://icons.iconarchive.com/icons/graphicloads/100-flat/64/contact-icon.png -->
+    </head>
+    <body>
+      <div id='search-bar'>
+        <input type='text' id='query' onkeypress="enterHandler(event)">
+        <button onclick="wikiRequest()">Search</button>
+      </div>
+      <div id='results'>
+
+      </div>
+    </body>
+</html>
